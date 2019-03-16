@@ -59,16 +59,14 @@ loop (NodeT mLastMatch dict) =
 
 chompOne : Parser String
 chompOne =
-    Parser.chompIf (always True)
-        |> Parser.getChompedString
+    Parser.getChompedString <| Parser.chompIf (always True)
 
 
 toNextLevel : Dict String (NodeT a) -> String -> Parser a
 toNextLevel dict str =
     case Dict.get str dict of
         Nothing ->
-            -- We should never get here
-            Parser.problem "Invalid char chomped"
+            Parser.problem "Value not found in dictionary"
 
         Just node ->
             loop node
