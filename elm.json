@@ -3,6 +3,7 @@
     "name": "lazamar/dict-parser",
     "summary": "Create a fast parser to match dictionary keys.",
     "license": "BSD-3-Clause",
+    "version": "1.0.0",
     "exposed-modules": [
         "Parser.Dict"
     ],
