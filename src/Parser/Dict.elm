@@ -1,6 +1,13 @@
 module Parser.Dict exposing (fromDict)
 
-{-| -}
+{-| Create a fast parser from a dictionary
+
+
+## Create
+
+@docs fromDict
+
+-}
 
 import Dict exposing (Dict)
 import Parser exposing ((|.), (|=), Parser, Step(..))
