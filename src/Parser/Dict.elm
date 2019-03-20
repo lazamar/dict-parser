@@ -1,9 +1,6 @@
 module Parser.Dict exposing (fromDict)
 
-{-| Create a fast parser from a dictionary
-
-
-## Create
+{-|
 
 @docs fromDict
 
@@ -14,66 +11,122 @@ import Parser exposing ((|.), (|=), Parser, Step(..))
 import Trie exposing (Node(..), Trie)
 
 
-{-| Create a parser from a dictionary
+{-| Create a fast parser for a dictionary.
+
+The parser succeeds with the longest matching key
+
+    type Animal
+        = Dog
+        | Cat
+        | Horse
+
+    animal : Parser Animal
+    animal =
+        [ ( "doggo", Dog )
+        , ( "kitty", Cat )
+        , ( "horsey", Horse )
+        ]
+            |> Dict.fromList
+            |> fromDict
+
 -}
 fromDict : Dict String a -> Parser a
 fromDict dict =
     let
-        (NodeT _ nodeDict) =
+        (Node _ nodeDict) =
             dict
                 |> Trie.fromDict
                 |> Trie.internal
-                |> toNodeT
+
+        topNode =
+            Node Nothing nodeDict
     in
-    loop (NodeT Nothing nodeDict)
+    Parser.succeed (startParsing topNode)
+        |= Parser.getSource
+        |= Parser.getOffset
+        |> Parser.andThen handleMatched
 
 
-{-| Describes a Trie where keys are of type String instead of Char.
-Even though theses strings still have only one character, having them
-with type String makes the parsing checks faster.
--}
-type NodeT a
-    = NodeT (Maybe a) (Dict String (NodeT a))
+handleMatched : Maybe (Match a) -> Parser a
+handleMatched mMatch =
+    case mMatch of
+        Nothing ->
+            Parser.problem "Unable to parse string"
+
+        Just (Match value matchLength) ->
+            chomp matchLength
+                |> Parser.map (always value)
 
 
-toNodeT : Node a -> NodeT a
-toNodeT (Node mval dict) =
-    dict
-        |> Dict.toList
-        |> List.map (\( char, node ) -> ( String.fromChar char, toNodeT node ))
-        |> Dict.fromList
-        |> NodeT mval
-
-
-loop : NodeT a -> Parser a
-loop (NodeT mLastMatch dict) =
+startParsing : Node a -> String -> Int -> Maybe (Match a)
+startParsing topNode source offset =
     let
-        nextParser =
-            Parser.andThen
-                (toNextLevel dict)
-                chompOne
+        str =
+            String.dropLeft offset source
     in
-    case mLastMatch of
+    findLongestMatch str Nothing 0 topNode
+
+
+{-| Matched value and offset
+-}
+type Match a
+    = Match a Int
+
+
+findLongestMatch : String -> Maybe (Match a) -> Int -> Node a -> Maybe (Match a)
+findLongestMatch source mLastMatch offset (Node mMatch dict) =
+    let
+        newMatch =
+            case mMatch of
+                Nothing ->
+                    mLastMatch
+
+                Just value ->
+                    Just <| Match value offset
+    in
+    case String.uncons source of
         Nothing ->
-            nextParser
+            --Nothing more to parse
+            newMatch
 
-        Just value ->
-            Parser.oneOf
-                [ Parser.backtrackable nextParser
-                , Parser.succeed value
-                ]
+        Just ( char, rest ) ->
+            case Dict.get char dict of
+                Just node ->
+                    findLongestMatch rest newMatch (offset + 1) node
+
+                Nothing ->
+                    newMatch
 
 
-chompOne : Parser String
+{-| Chomps n characters
+-}
+chomp : Int -> Parser ()
+chomp n =
+    Parser.loop n chompHelp
+
+
+chompHelp : Int -> Parser (Step Int ())
+chompHelp n =
+    if n > 30 then
+        chompDirectly 30 (Loop <| n - 30)
+
+    else
+        chompDirectly n (Done ())
+
+
+{-| May overflow the stack if n is too big
+-}
+chompDirectly : Int -> a -> Parser a
+chompDirectly n a =
+    List.repeat n chompOne
+        |> List.foldl (flip (|.)) (Parser.succeed a)
+
+
+chompOne : Parser ()
 chompOne =
-    Parser.getChompedString <| Parser.chompIf (always True)
+    Parser.chompIf (always True)
 
 
-toNextLevel : Dict String (NodeT a) -> String -> Parser a
-toNextLevel dict str =
-    case Dict.get str dict of
-        Nothing ->
-            Parser.problem "Value not found in dictionary"
-
-        Just node ->
-            loop node
+flip : (a -> b -> c) -> b -> a -> c
+flip f b a =
+    f a b

@@ -2,55 +2,74 @@
 
 [![Build Status](https://travis-ci.org/lazamar/dict-parser.svg?branch=master)](https://travis-ci.org/lazamar/dict-parser)
 
-Create a fast parser to match dictionary keys.
+Create fast parsers to match dictionary keys.
+
+Succeeds with the longest matching key. Is stack safe.
 
 ## The problem
 
 If you need a parser to match strings that you know beforehand you could use `Parser.oneOf`.
 
-	foodChainPiece : Parser String
-	foodChainPiece = 
-		Parser.oneOf
-			[ Parser.backtrackable <| Parser.token "leaf"
-			, Parser.backtrackable <| Parser.token "ant"
-			, Parser.backtrackable <| Parser.token "anteater"
-			]
-			|> Parser.getChompedString
+	import Parser exposing (Parser, oneOf, backtrackable, token, getChompedString)
 
-Now we can parse things in the food chain. However this parser a few problems:
+	friendName : Parser String
+	friendName = 
+		oneOf
+			[ backtrackable <| token "joe"
+			, backtrackable <| token "joey"
+			, backtrackable <| token "john"
+			]
+			|> getChompedString
+
+Now we can parse the name of our friends. However this parser has a few problems:
 
 - **It is slow** - It will always try all possible options regardless of how the parsed string looks like. 
-- **It is inefficient** - Using `oneOf`	with `backtrackable` is [advised against](https://github.com/elm/parser/blob/master/semantics.md#backtrackable--oneof-inefficient). It means we will be chomping the same characters over and over again.
-- **Order matters** - Our small example will never be able to parse `anteater` as `ant` will always be matched first.
+- **It is inefficient** - Using `oneOf`	with `backtrackable` is [advised against](https://github.com/elm/parser/blob/master/semantics.md#backtrackable--oneof-inefficient). It means that we will be chomping the same characters over and over again.
+- **Order matters** - Small as it is, our example has a bug. It will never be able to parse *joel* as *joe* will always succeed first.
 
 
-## Implementation
+## The solution
 
-[`examples/readme/`](https://en.wikipedia.org/wiki/Trie)
+	import Parser.Dict as DictParser
 
-Trie data structure.
+	friendName : Parser String
+	friendName =
+		[ ("joe", "joe")
+		, ("joey", "joey")
+		, ("john", "john")
+		]
+			|> Dict.fromList
+			|> DictParser.fromDict
 
-It is great for doing fast string matching.
-
-Here is an example:
-        Trie.empty
-            |> Trie.add "john" ()
-            |> Trie.add "josh" ()
-
-
-                 "j" (Nothing)
-                   \
-                   "o" (Nothing)
-                  /  \
-      (Nothing) "h"   "s" (Nothing)
-               /        \
-    (Just ()) "n"       "h" (Just ())
-
-## Limitations
-
-  - not empty
-  - up to 200 characters
+`dict-parser` organises the data in a [Trie](https://en.wikipedia.org/wiki/Trie) to create a parser that will match strings quickly and efficiently.
 
 
-## Benchmarks
+                "j" 
+                  \
+                  "o"
+                 /  \
+         (joe) "e"   "h" 
+               /       \
+      (joey) "y"        "n" (john)
 
+
+In this example, if the first character being checked is not a *j* it will already fail the parsing.
+
+Once we get past *j* and *o* we can match either *e* or *h*. We could try them in sequence, but instead we use a dictionary with the characters at that level, allowing this check to be very fast.
+
+## Stack safety
+
+Great care has been taken to make sure that it doesn't matter how long your dictionary keys are, or how many of them you have, the parser will never overflow the stack.
+
+## How fast is it?
+
+Let's imagine that we are trying to match a word with 5 characters and we have 1000 words in our dictionary.
+
+The time complexity of `oneOf` + `backtrackable` + `token` is of **O(n * l)**, where *l* is the length of the word being matched and *n* is the total number of words.
+In the worst case scenario our example would require 5000 comparisons with this approach.
+
+The time complexity of using a Trie and matching the possible characters sequentially at each level is of **O(n + l)**.
+In the worst case scenario our example would require 1005 comparisons with this approach.
+
+This package's implementation time complexity is of **O(l * log2(n / l))**.
+In the worst case scenario our example would require 39 comparisons with this approach.
