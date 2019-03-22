@@ -1,14 +1,8 @@
 module Trie exposing
     ( Node(..)
     , Trie
-    , empty
     , fromDict
-    , get
-    , insert
     , internal
-    , member
-    , remove
-    , size
     )
 
 {-|
@@ -68,119 +62,42 @@ insert key value (Trie node) =
             String.toList key
 
         newNode =
-            insertHelper chars value node
+            insertHelper [] chars value node
     in
     Trie newNode
 
 
-insertHelper : List Char -> a -> Node a -> Node a
-insertHelper chars value (Node mval dict) =
+{-| To avoid stack overflow we create functions that will
+wait for the result of the recursive part and add all of them
+to a list. Once we finished recursing we just go though the list
+applying all the computed elements
+-}
+insertHelper : List ( Char, Node a ) -> List Char -> a -> Node a -> Node a
+insertHelper nodeCreators chars value (Node mval dict) =
     case chars of
         [] ->
-            Node (Just value) dict
+            joinNodes nodeCreators (Node (Just value) dict)
 
         head :: tail ->
             let
-                updateDict m =
-                    m
-                        |> Maybe.withDefault emptyNode
-                        |> insertHelper tail value
-                        |> Just
+                nextNode =
+                    case Dict.get head dict of
+                        Nothing ->
+                            emptyNode
+
+                        Just node ->
+                            node
             in
-            Node mval (Dict.update head updateDict dict)
+            insertHelper
+                (( head, Node mval dict ) :: nodeCreators)
+                tail
+                value
+                nextNode
 
 
-remove : String -> Trie a -> Trie a
-remove key (Trie node) =
-    let
-        chars =
-            String.toList key
-    in
-    removeHelper chars node
-        |> Maybe.withDefault emptyNode
-        |> Trie
-
-
-removeHelper : List Char -> Node a -> Maybe (Node a)
-removeHelper chars (Node mval dict) =
-    case chars of
-        [] ->
-            if Dict.isEmpty dict then
-                Nothing
-
-            else
-                Just (Node Nothing dict)
-
-        head :: tail ->
-            let
-                newDict =
-                    Dict.update
-                        head
-                        (Maybe.withDefault emptyNode >> removeHelper tail)
-                        dict
-            in
-            if Dict.isEmpty newDict && mval == Nothing then
-                Nothing
-
-            else
-                Just (Node mval newDict)
-
-
-member : String -> Trie a -> Bool
-member key (Trie node) =
-    memberHelper (String.toList key) node
-
-
-memberHelper : List Char -> Node a -> Bool
-memberHelper chars (Node mval dict) =
-    case chars of
-        [] ->
-            case mval of
-                Nothing ->
-                    False
-
-                Just _ ->
-                    True
-
-        head :: tail ->
-            Dict.get head dict
-                |> Maybe.map (memberHelper tail)
-                |> Maybe.withDefault False
-
-
-size : Trie a -> Int
-size (Trie node) =
-    sizeHelp node 0
-
-
-sizeHelp : Node a -> Int -> Int
-sizeHelp (Node mval dict) acc =
-    let
-        content =
-            case mval of
-                Nothing ->
-                    0
-
-                Just _ ->
-                    1
-    in
-    content + Dict.foldl (always sizeHelp) acc dict
-
-
-get : String -> Trie a -> Maybe a
-get key (Trie node) =
-    getHelper (String.toList key) node
-
-
-getHelper : List Char -> Node a -> Maybe a
-getHelper chars (Node mval dict) =
-    case chars of
-        [] ->
-            mval
-
-        head :: tail ->
-            Dict.get head dict
-                |> Maybe.andThen (getHelper tail)
+joinNodes : List ( Char, Node a ) -> Node a -> Node a
+joinNodes pres leaf =
+    List.foldl (\( key, Node mval dict ) node -> Node mval <| Dict.insert key node dict) leaf pres
 
 
 internal : Trie a -> Node a
@@ -188,8 +105,6 @@ internal (Trie node) =
     node
 
 
-{-| Create a Trie from a Dictionary
--}
 fromDict : Dict String a -> Trie a
 fromDict dict =
     Dict.foldl insert empty dict

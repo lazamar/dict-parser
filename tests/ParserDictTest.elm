@@ -64,13 +64,17 @@ suite =
                        )
                     |> (\listParser -> parse listParser "1234567")
                     |> Expect.equal (Just [ "123", "456" ])
+        , test "does not overflow" <|
+            \_ ->
+                Dict.empty
+                    |> insertAsKeyAndValue (String.repeat 10000 "overflow")
+                    |> matchEachEntry DictParser.fromDict
         ]
 
 
 {-| Acceptable string keys are:
 
   - not empty
-  - up to 500 characters
 
 -}
 acceptableKey : Fuzzer String
@@ -79,12 +83,8 @@ acceptableKey =
         fuzzChar =
             Fuzz.char
                 |> Fuzz.map String.fromChar
-
-        nonempty =
-            Fuzz.map2 (++) fuzzChar Fuzz.string
     in
-    nonempty
-        |> Fuzz.map (String.left 500)
+    Fuzz.map2 (++) fuzzChar Fuzz.string
 
 
 {-| Tries to match all dictionary entries
