@@ -77,5 +77,6 @@ In the worst case scenario our example would require 5000 comparisons with this 
 The time complexity of using a Trie and matching the possible characters sequentially at each level is of **O(n + l)**.
 In the worst case scenario our example would require 1005 comparisons with this approach.
 
-This package's implementation time complexity is of **O(l * log2(n / l))**.
+The time complexity is of this package's implementation is of **O(l * log2(n / l))**.
+We use a Trie and with a Dictionary at each level to perform binary search.
 In the worst case scenario our example would require 39 comparisons with this approach.
