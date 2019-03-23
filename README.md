@@ -10,16 +10,18 @@ Succeeds with the longest matching key. Is stack safe.
 
 If you need a parser to match strings that you know beforehand you could use `Parser.oneOf`.
 
-	import Parser exposing (Parser, oneOf, backtrackable, token, getChompedString)
+```elm
+import Parser exposing (Parser, oneOf, backtrackable, token, getChompedString)
 
-	friendName : Parser String
-	friendName = 
-		oneOf
-			[ backtrackable <| token "joe"
-			, backtrackable <| token "joey"
-			, backtrackable <| token "john"
-			]
-			|> getChompedString
+friendName : Parser String
+friendName = 
+	oneOf
+		[ backtrackable <| token "joe"
+		, backtrackable <| token "joey"
+		, backtrackable <| token "john"
+		]
+		|> getChompedString
+```
 
 Now we can parse the name of our friends. However this parser has a few problems:
 
@@ -30,16 +32,18 @@ Now we can parse the name of our friends. However this parser has a few problems
 
 ## The solution
 
-	import Parser.Dict as DictParser
+```elm
+import Parser.Dict as DictParser
 
-	friendName : Parser String
-	friendName =
-		[ ("joe", "joe")
-		, ("joey", "joey")
-		, ("john", "john")
-		]
-			|> Dict.fromList
-			|> DictParser.fromDict
+friendName : Parser String
+friendName =
+	[ ("joe", "joe")
+	, ("joey", "joey")
+	, ("john", "john")
+	]
+		|> Dict.fromList
+		|> DictParser.fromDict
+```
 
 `dict-parser` organises the data in a [Trie](https://en.wikipedia.org/wiki/Trie) to create a parser that will match strings quickly and efficiently.
 
@@ -62,6 +66,8 @@ Once we get past *j* and *o* we can match either *e* or *h*. We could try them i
 Great care has been taken to make sure that it doesn't matter how long your dictionary keys are, or how many of them you have, the parser will never overflow the stack.
 
 ## How fast is it?
+
+![dict-parser-comparison](https://raw.githubusercontent.com/lazamar/dict-parser/master/images/comparisons-graph.png)
 
 Let's imagine that we are trying to match a word with 5 characters and we have 1000 words in our dictionary.
 
