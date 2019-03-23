@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="143.89348mm"
+   height="89.540794mm"
+   viewBox="0 0 143.89348 89.540794"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="comparisons-chart.svg">
+  <defs
+     id="defs2">
+    <clipPath
+       id="highcharts-35">
+      <rect
+         id="rect1042"
+         height="288"
+         width="513"
+         y="1"
+         x="1" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="98.392204"
+     inkscape:cy="123.8167"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="2878"
+     inkscape:window-height="1798"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-42.958021,-62.10758)">
+    <rect
+       x="58.074429"
+       y="69.019447"
+       width="128.52751"
+       height="72.37471"
+       id="rect1047"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;fill:#ffffff;stroke-width:0.24956797" />
+    <path
+       d="M 58.074431,141.51894 H 186.60194 V 129.53968 H 58.074431"
+       id="path1049"
+       inkscape:connector-curvature="0"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;fill:#ffffff;fill-opacity:0.5;stroke-width:0.24956797" />
+    <path
+       d="M 58.074431,117.31085 H 186.60194 V 105.33158 H 58.074431"
+       id="path1051"
+       inkscape:connector-curvature="0"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;fill:#ffffff;fill-opacity:0.5;stroke-width:0.24956797" />
+    <path
+       d="M 58.074431,93.352323 H 186.60194 V 81.123488 H 58.074431"
+       id="path1053"
+       inkscape:connector-curvature="0"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;fill:#ffffff;fill-opacity:0.5;stroke-width:0.24956797" />
+    <g
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif"
+       class="highcharts-grid"
+       id="g1055"
+       transform="matrix(0.26458333,0,0,0.26458333,42.015382,46.977546)" />
+    <g
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif"
+       class="highcharts-grid"
+       id="g1071"
+       transform="matrix(0.24956797,0,0,0.24956797,39.356834,59.53586)">
+      <path
+         d="M 75,328.5 H 590"
+         id="path1057"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:none;stroke:#c0c0c0;stroke-width:1" />
+      <path
+         d="M 75,280.5 H 590"
+         id="path1059"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:none;stroke:#c0c0c0;stroke-width:1" />
+      <path
+         d="M 75,231.5 H 590"
+         id="path1061"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:none;stroke:#c0c0c0;stroke-width:1" />
+      <path
+         d="M 75,183.5 H 590"
+         id="path1063"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:none;stroke:#c0c0c0;stroke-width:1" />
+      <path
+         d="M 75,135.5 H 590"
+         id="path1065"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:none;stroke:#c0c0c0;stroke-width:1" />
+      <path
+         d="M 75,86.5 H 590"
+         id="path1067"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:none;stroke:#c0c0c0;stroke-width:1" />
+      <path
+         d="M 75,37.5 H 590"
+         id="path1069"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:none;stroke:#c0c0c0;stroke-width:1" />
+    </g>
+    <rect
+       x="58.074429"
+       y="69.019447"
+       width="128.52751"
+       height="72.37471"
+       id="rect1073"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;fill:none;stroke:#026fc1;stroke-width:0.49913594" />
+    <g
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif"
+       class="highcharts-axis"
+       id="g1085"
+       transform="matrix(0.24956797,0,0,0.24956797,39.356834,59.53586)">
+      <path
+         d="m 246.5,328 v 10"
+         id="path1075"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1" />
+      <path
+         d="m 417.5,328 v 10"
+         id="path1077"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1" />
+      <path
+         d="m 590.5,328 v 10"
+         id="path1079"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1" />
+      <path
+         d="m 74.5,328 v 10"
+         id="path1081"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1" />
+      <path
+         d="M 75,328.5 H 590"
+         id="path1083"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#c0d0e0;stroke-width:1" />
+    </g>
+    <g
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif"
+       class="highcharts-axis"
+       id="g1105"
+       transform="matrix(0.24956797,0,0,0.24956797,39.356834,59.53586)">
+      <path
+         d="M 75,328.5 H 65"
+         id="path1087"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1" />
+      <path
+         d="M 75,280.5 H 65"
+         id="path1089"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1" />
+      <path
+         d="M 75,231.5 H 65"
+         id="path1091"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1" />
+      <path
+         d="M 75,183.5 H 65"
+         id="path1093"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1" />
+      <path
+         d="M 75,135.5 H 65"
+         id="path1095"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1" />
+      <path
+         d="M 75,86.5 H 65"
+         id="path1097"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1" />
+      <path
+         d="M 75,37.5 H 65"
+         id="path1099"
+         inkscape:connector-curvature="0"
+         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1" />
+      <text
+         x="23.125"
+         transform="rotate(-90,23.125,183)"
+         class=" highcharts-yaxis-title"
+         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:middle;fill:#000000"
+         y="183"
+         id="text1103">
+        <tspan
+           id="tspan1101">Number of comparisons</tspan>
+      </text>
+    </g>
+    <rect
+       x="69.180206"
+       y="80.594322"
+       width="20.714142"
+       height="60.395451"
+       rx="0"
+       ry="0"
+       id="rect1107"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;fill:#58b6d2;stroke:#ffffff;stroke-width:0.24956797" />
+    <rect
+       x="111.85633"
+       y="128.76096"
+       width="20.714142"
+       height="12.22883"
+       rx="0"
+       ry="0"
+       id="rect1109"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;fill:#56afc3;stroke:#ffffff;stroke-width:0.24956797" />
+    <rect
+       x="154.78201"
+       y="140.49065"
+       width="20.714142"
+       height="0.49913594"
+       rx="0"
+       ry="0"
+       id="rect1111"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;fill:#5ab3ce;stroke:#ffffff;stroke-width:0.24956797" />
+    <g
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif"
+       id="g1115"
+       clip-path="none"
+       transform="matrix(0.24956797,0,0,0.24956797,58.074432,69.019443)"
+       class="highcharts-markers highcharts-series-0" />
+    <g
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif"
+       id="g1117"
+       clip-path="url(#highcharts-35)"
+       transform="matrix(0.24956797,0,0,0.24956797,58.074432,69.019443)"
+       class="highcharts-series highcharts-series-1" />
+    <g
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif"
+       id="g1119"
+       clip-path="none"
+       transform="matrix(0.24956797,0,0,0.24956797,58.074432,69.019443)"
+       class="highcharts-markers highcharts-series-1" />
+    <text
+       x="114.22723"
+       class="highcharts-title"
+       style="color:#000000;font-size:2.99481583px;font-family:arial, sans-serif;text-transform:none;text-anchor:middle;fill:#000000;stroke-width:0.24956797"
+       y="64.277649"
+       id="text1125">
+      <tspan
+         id="tspan1123"
+         style="stroke-width:0.24956797">Number of comparisons in worst case scenario (5 letters word among 1000 keys)</tspan>
+    </text>
+    <g
+       class="highcharts-data-labels highcharts-series-0"
+       transform="matrix(0.24956797,0,0,0.24956797,58.074431,69.019443)"
+       id="g1145"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;opacity:1">
+      <g
+         transform="translate(68,25)"
+         id="g1131">
+        <text
+           x="5"
+           style="color:#000000;font-weight:bold;font-size:12px;font-family:arial, sans-serif;fill:#000000"
+           y="17"
+           id="text1129">
+          <tspan
+             id="tspan1127">5000</tspan>
+        </text>
+      </g>
+      <g
+         transform="translate(239,218)"
+         id="g1137">
+        <text
+           x="5"
+           style="color:#000000;font-weight:bold;font-size:12px;font-family:arial, sans-serif;fill:#000000"
+           y="17"
+           id="text1135">
+          <tspan
+             id="tspan1133">1005</tspan>
+        </text>
+      </g>
+      <g
+         transform="translate(416,265)"
+         id="g1143">
+        <text
+           x="5"
+           style="color:#000000;font-weight:bold;font-size:12px;font-family:arial, sans-serif;fill:#000000"
+           y="17"
+           id="text1141">
+          <tspan
+             id="tspan1139">39</tspan>
+        </text>
+      </g>
+    </g>
+    <g
+       class="highcharts-data-labels highcharts-series-1"
+       transform="matrix(0.26458333,0,0,0.26458333,61.859132,57.031713)"
+       id="g1147"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;opacity:1" />
+    <g
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif"
+       class="highcharts-axis-labels highcharts-xaxis-labels"
+       id="g1175"
+       transform="matrix(0.24956797,0,0,0.24956797,39.356834,59.53586)">
+      <text
+         x="160.83333"
+         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:middle;opacity:1;fill:#000000"
+         y="348"
+         id="text1165">
+        <tspan
+           id="tspan1163">oneOf + Backtrackable + token</tspan>
+      </text>
+      <text
+         x="332.5"
+         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:middle;opacity:1;fill:#000000"
+         y="348"
+         id="text1169">
+        <tspan
+           id="tspan1167">Trie + Sequential search</tspan>
+      </text>
+      <text
+         x="504.16666"
+         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:middle;opacity:1;fill:#000000"
+         y="348"
+         id="text1173">
+        <tspan
+           id="tspan1171">Trie + Binary search</tspan>
+      </text>
+    </g>
+    <g
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif"
+       class="highcharts-axis-labels highcharts-yaxis-labels"
+       id="g1205"
+       transform="matrix(0.24956797,0,0,0.24956797,39.356834,59.53586)">
+      <text
+         x="60"
+         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:end;opacity:1;fill:#000000"
+         y="333"
+         id="text1179">
+        <tspan
+           id="tspan1177">0</tspan>
+      </text>
+      <text
+         x="60"
+         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:end;opacity:1;fill:#000000"
+         y="285"
+         id="text1183">
+        <tspan
+           id="tspan1181">1000</tspan>
+      </text>
+      <text
+         x="60"
+         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:end;opacity:1;fill:#000000"
+         y="237"
+         id="text1187">
+        <tspan
+           id="tspan1185">2000</tspan>
+      </text>
+      <text
+         x="60"
+         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:end;opacity:1;fill:#000000"
+         y="188"
+         id="text1191">
+        <tspan
+           id="tspan1189">3000</tspan>
+      </text>
+      <text
+         x="60"
+         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:end;opacity:1;fill:#000000"
+         y="140"
+         id="text1195">
+        <tspan
+           id="tspan1193">4000</tspan>
+      </text>
+      <text
+         x="60"
+         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:end;opacity:1;fill:#000000"
+         y="92"
+         id="text1199">
+        <tspan
+           id="tspan1197">5000</tspan>
+      </text>
+      <text
+         x="60"
+         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:end;opacity:1;fill:#000000"
+         y="43"
+         id="text1203">
+        <tspan
+           id="tspan1201">6000</tspan>
+      </text>
+    </g>
+    <g
+       class="highcharts-tooltip"
+       display="none"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;white-space:nowrap;display:none"
+       id="g1217"
+       transform="matrix(0.26458333,0,0,0.26458333,42.015382,46.977546)">
+      <path
+         d="m 3.5,0.5 h 10 c 3,0 3,0 3,3 v 10 c 0,3 0,3 -3,3 h -10 c -3,0 -3,0 -3,-3 v -10 c 0,-3 0,-3 3,-3"
+         transform="translate(1,1)"
+         id="path1207"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:5;stroke-opacity:0.05" />
+      <path
+         d="m 3.5,0.5 h 10 c 3,0 3,0 3,3 v 10 c 0,3 0,3 -3,3 h -10 c -3,0 -3,0 -3,-3 v -10 c 0,-3 0,-3 3,-3"
+         transform="translate(1,1)"
+         id="path1209"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:3;stroke-opacity:0.1" />
+      <path
+         d="m 3.5,0.5 h 10 c 3,0 3,0 3,3 v 10 c 0,3 0,3 -3,3 h -10 c -3,0 -3,0 -3,-3 v -10 c 0,-3 0,-3 3,-3"
+         transform="translate(1,1)"
+         id="path1211"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:0.15" />
+      <path
+         d="m 3.5,0.5 h 10 c 3,0 3,0 3,3 v 10 c 0,3 0,3 -3,3 h -10 c -3,0 -3,0 -3,-3 v -10 c 0,-3 0,-3 3,-3"
+         id="path1213"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff;fill-opacity:0.85" />
+      <text
+         x="8"
+         style="color:#000000;font-size:12px;fill:#000000"
+         y="20"
+         id="text1215" />
+    </g>
+    <text
+       x="186.60191"
+       style="color:#909090;font-size:2.24611187px;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;text-anchor:end;fill:#909090;stroke-width:0.24956797"
+       y="151.62643"
+       id="text1219">meta-chart.com</text>
+  </g>
+</svg>
