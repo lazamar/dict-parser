@@ -67,7 +67,7 @@ Great care has been taken to make sure that it doesn't matter how long your dict
 
 ## How fast is it?
 
-![dict-parser-comparison](https://raw.githubusercontent.com/lazamar/dict-parser/master/images/comparisons-chart.svg)
+![dict-parser-comparison](https://cdn.jsdelivr.net/gh/lazamar/dict-parser@master/images/comparisons-chart.svg)
 
 Let's imagine that we are trying to match a word with 5 characters and we have 1000 words in our dictionary.
 

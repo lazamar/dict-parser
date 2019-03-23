@@ -1,55 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="143.89348mm"
-   height="89.540794mm"
-   viewBox="0 0 143.89348 89.540794"
-   version="1.1"
    id="svg8"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="comparisons-chart.svg">
+   version="1.1"
+   viewBox="0 0 143.89348 95.54079"
+   height="95.540787mm"
+   width="143.89348mm">
   <defs
      id="defs2">
     <clipPath
        id="highcharts-35">
       <rect
-         id="rect1042"
-         height="288"
-         width="513"
+         x="1"
          y="1"
-         x="1" />
+         width="513"
+         height="288"
+         id="rect1042" />
     </clipPath>
   </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="98.392204"
-     inkscape:cy="123.8167"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:window-width="2878"
-     inkscape:window-height="1798"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -63,400 +35,372 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-42.958021,-62.10758)">
+     transform="translate(-42.958021,-56.107561)"
+     id="layer1">
     <rect
-       x="58.074429"
-       y="69.019447"
-       width="128.52751"
-       height="72.37471"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;fill:#ffffff;stroke-width:0.24956797"
        id="rect1047"
-       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;fill:#ffffff;stroke-width:0.24956797" />
+       height="72.37471"
+       width="128.52751"
+       y="67.431946"
+       x="58.074429" />
     <path
-       d="M 58.074431,141.51894 H 186.60194 V 129.53968 H 58.074431"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;fill:#ffffff;fill-opacity:0.5;stroke-width:0.24956797"
        id="path1049"
-       inkscape:connector-curvature="0"
-       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;fill:#ffffff;fill-opacity:0.5;stroke-width:0.24956797" />
+       d="M 58.074431,139.93143 H 186.60194 V 127.95217 H 58.074431" />
     <path
-       d="M 58.074431,117.31085 H 186.60194 V 105.33158 H 58.074431"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;fill:#ffffff;fill-opacity:0.5;stroke-width:0.24956797"
        id="path1051"
-       inkscape:connector-curvature="0"
-       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;fill:#ffffff;fill-opacity:0.5;stroke-width:0.24956797" />
+       d="M 58.074431,115.72334 H 186.60194 V 103.74407 H 58.074431" />
     <path
-       d="M 58.074431,93.352323 H 186.60194 V 81.123488 H 58.074431"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;fill:#ffffff;fill-opacity:0.5;stroke-width:0.24956797"
        id="path1053"
-       inkscape:connector-curvature="0"
-       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;fill:#ffffff;fill-opacity:0.5;stroke-width:0.24956797" />
+       d="M 58.074431,91.764822 H 186.60194 V 79.535987 H 58.074431" />
     <g
-       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif"
-       class="highcharts-grid"
+       transform="matrix(0.26458333,0,0,0.26458333,42.015382,46.977546)"
        id="g1055"
-       transform="matrix(0.26458333,0,0,0.26458333,42.015382,46.977546)" />
-    <g
-       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif"
        class="highcharts-grid"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif" />
+    <g
+       transform="matrix(0.24956797,0,0,0.24956797,39.356834,57.948359)"
        id="g1071"
-       transform="matrix(0.24956797,0,0,0.24956797,39.356834,59.53586)">
+       class="highcharts-grid"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif">
       <path
-         d="M 75,328.5 H 590"
+         style="opacity:1;fill:none;stroke:#c0c0c0;stroke-width:1"
          id="path1057"
-         inkscape:connector-curvature="0"
-         style="opacity:1;fill:none;stroke:#c0c0c0;stroke-width:1" />
+         d="M 75,328.5 H 590" />
       <path
-         d="M 75,280.5 H 590"
+         style="opacity:1;fill:none;stroke:#c0c0c0;stroke-width:1"
          id="path1059"
-         inkscape:connector-curvature="0"
-         style="opacity:1;fill:none;stroke:#c0c0c0;stroke-width:1" />
+         d="M 75,280.5 H 590" />
       <path
-         d="M 75,231.5 H 590"
+         style="opacity:1;fill:none;stroke:#c0c0c0;stroke-width:1"
          id="path1061"
-         inkscape:connector-curvature="0"
-         style="opacity:1;fill:none;stroke:#c0c0c0;stroke-width:1" />
+         d="M 75,231.5 H 590" />
       <path
-         d="M 75,183.5 H 590"
+         style="opacity:1;fill:none;stroke:#c0c0c0;stroke-width:1"
          id="path1063"
-         inkscape:connector-curvature="0"
-         style="opacity:1;fill:none;stroke:#c0c0c0;stroke-width:1" />
+         d="M 75,183.5 H 590" />
       <path
-         d="M 75,135.5 H 590"
+         style="opacity:1;fill:none;stroke:#c0c0c0;stroke-width:1"
          id="path1065"
-         inkscape:connector-curvature="0"
-         style="opacity:1;fill:none;stroke:#c0c0c0;stroke-width:1" />
+         d="M 75,135.5 H 590" />
       <path
-         d="M 75,86.5 H 590"
+         style="opacity:1;fill:none;stroke:#c0c0c0;stroke-width:1"
          id="path1067"
-         inkscape:connector-curvature="0"
-         style="opacity:1;fill:none;stroke:#c0c0c0;stroke-width:1" />
+         d="M 75,86.5 H 590" />
       <path
-         d="M 75,37.5 H 590"
+         style="opacity:1;fill:none;stroke:#c0c0c0;stroke-width:1"
          id="path1069"
-         inkscape:connector-curvature="0"
-         style="opacity:1;fill:none;stroke:#c0c0c0;stroke-width:1" />
+         d="M 75,37.5 H 590" />
     </g>
     <rect
-       x="58.074429"
-       y="69.019447"
-       width="128.52751"
-       height="72.37471"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;fill:none;stroke:#026fc1;stroke-width:0.49913594"
        id="rect1073"
-       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;fill:none;stroke:#026fc1;stroke-width:0.49913594" />
+       height="72.37471"
+       width="128.52751"
+       y="67.431946"
+       x="58.074429" />
     <g
-       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif"
-       class="highcharts-axis"
+       transform="matrix(0.24956797,0,0,0.24956797,39.356834,57.948359)"
        id="g1085"
-       transform="matrix(0.24956797,0,0,0.24956797,39.356834,59.53586)">
+       class="highcharts-axis"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif">
       <path
-         d="m 246.5,328 v 10"
+         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1"
          id="path1075"
-         inkscape:connector-curvature="0"
-         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1" />
+         d="m 246.5,328 v 10" />
       <path
-         d="m 417.5,328 v 10"
+         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1"
          id="path1077"
-         inkscape:connector-curvature="0"
-         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1" />
+         d="m 417.5,328 v 10" />
       <path
-         d="m 590.5,328 v 10"
+         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1"
          id="path1079"
-         inkscape:connector-curvature="0"
-         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1" />
+         d="m 590.5,328 v 10" />
       <path
-         d="m 74.5,328 v 10"
+         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1"
          id="path1081"
-         inkscape:connector-curvature="0"
-         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1" />
+         d="m 74.5,328 v 10" />
       <path
-         d="M 75,328.5 H 590"
+         style="fill:none;stroke:#c0d0e0;stroke-width:1"
          id="path1083"
-         inkscape:connector-curvature="0"
-         style="fill:none;stroke:#c0d0e0;stroke-width:1" />
+         d="M 75,328.5 H 590" />
     </g>
     <g
-       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif"
-       class="highcharts-axis"
+       transform="matrix(0.24956797,0,0,0.24956797,39.356834,57.948359)"
        id="g1105"
-       transform="matrix(0.24956797,0,0,0.24956797,39.356834,59.53586)">
+       class="highcharts-axis"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif">
       <path
-         d="M 75,328.5 H 65"
+         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1"
          id="path1087"
-         inkscape:connector-curvature="0"
-         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1" />
+         d="M 75,328.5 H 65" />
       <path
-         d="M 75,280.5 H 65"
+         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1"
          id="path1089"
-         inkscape:connector-curvature="0"
-         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1" />
+         d="M 75,280.5 H 65" />
       <path
-         d="M 75,231.5 H 65"
+         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1"
          id="path1091"
-         inkscape:connector-curvature="0"
-         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1" />
+         d="M 75,231.5 H 65" />
       <path
-         d="M 75,183.5 H 65"
+         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1"
          id="path1093"
-         inkscape:connector-curvature="0"
-         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1" />
+         d="M 75,183.5 H 65" />
       <path
-         d="M 75,135.5 H 65"
+         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1"
          id="path1095"
-         inkscape:connector-curvature="0"
-         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1" />
+         d="M 75,135.5 H 65" />
       <path
-         d="M 75,86.5 H 65"
+         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1"
          id="path1097"
-         inkscape:connector-curvature="0"
-         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1" />
+         d="M 75,86.5 H 65" />
       <path
-         d="M 75,37.5 H 65"
+         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1"
          id="path1099"
-         inkscape:connector-curvature="0"
-         style="opacity:1;fill:none;stroke:#c0d0e0;stroke-width:1" />
+         d="M 75,37.5 H 65" />
       <text
-         x="23.125"
-         transform="rotate(-90,23.125,183)"
-         class=" highcharts-yaxis-title"
-         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:middle;fill:#000000"
+         id="text1103"
          y="183"
-         id="text1103">
+         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:middle;fill:#000000"
+         class=" highcharts-yaxis-title"
+         transform="rotate(-90,23.125,183)"
+         x="23.125">
         <tspan
            id="tspan1101">Number of comparisons</tspan>
       </text>
     </g>
     <rect
-       x="69.180206"
-       y="80.594322"
-       width="20.714142"
-       height="60.395451"
-       rx="0"
-       ry="0"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;fill:#58b6d2;stroke:#ffffff;stroke-width:0.24956797"
        id="rect1107"
-       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;fill:#58b6d2;stroke:#ffffff;stroke-width:0.24956797" />
-    <rect
-       x="111.85633"
-       y="128.76096"
-       width="20.714142"
-       height="12.22883"
-       rx="0"
        ry="0"
+       rx="0"
+       height="60.395451"
+       width="20.714142"
+       y="79.006821"
+       x="69.180206" />
+    <rect
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;fill:#56afc3;stroke:#ffffff;stroke-width:0.24956797"
        id="rect1109"
-       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;fill:#56afc3;stroke:#ffffff;stroke-width:0.24956797" />
-    <rect
-       x="154.78201"
-       y="140.49065"
-       width="20.714142"
-       height="0.49913594"
-       rx="0"
        ry="0"
+       rx="0"
+       height="12.22883"
+       width="20.714142"
+       y="127.17346"
+       x="111.85633" />
+    <rect
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;fill:#5ab3ce;stroke:#ffffff;stroke-width:0.24956797"
        id="rect1111"
-       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;fill:#5ab3ce;stroke:#ffffff;stroke-width:0.24956797" />
+       ry="0"
+       rx="0"
+       height="0.49913594"
+       width="20.714142"
+       y="138.90317"
+       x="154.78201" />
     <g
-       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif"
+       class="highcharts-markers highcharts-series-0"
+       transform="matrix(0.24956797,0,0,0.24956797,58.074432,69.019443)"
+       clip-path="none"
        id="g1115"
-       clip-path="none"
-       transform="matrix(0.24956797,0,0,0.24956797,58.074432,69.019443)"
-       class="highcharts-markers highcharts-series-0" />
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif" />
     <g
-       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif"
-       id="g1117"
+       class="highcharts-series highcharts-series-1"
+       transform="matrix(0.24956797,0,0,0.24956797,58.074432,69.019443)"
        clip-path="url(#highcharts-35)"
-       transform="matrix(0.24956797,0,0,0.24956797,58.074432,69.019443)"
-       class="highcharts-series highcharts-series-1" />
+       id="g1117"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif" />
     <g
-       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif"
-       id="g1119"
-       clip-path="none"
+       class="highcharts-markers highcharts-series-1"
        transform="matrix(0.24956797,0,0,0.24956797,58.074432,69.019443)"
-       class="highcharts-markers highcharts-series-1" />
+       clip-path="none"
+       id="g1119"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif" />
     <text
-       x="114.22723"
+       id="text1125"
+       y="62.854301"
+       style="color:#000000;font-size:3.62973547px;font-family:arial, sans-serif;text-transform:none;text-anchor:middle;fill:#000000;stroke-width:0.30247793"
        class="highcharts-title"
-       style="color:#000000;font-size:2.99481583px;font-family:arial, sans-serif;text-transform:none;text-anchor:middle;fill:#000000;stroke-width:0.24956797"
-       y="64.277649"
-       id="text1125">
+       x="118.45451">
       <tspan
-         id="tspan1123"
-         style="stroke-width:0.24956797">Number of comparisons in worst case scenario (5 letters word among 1000 keys)</tspan>
+         style="stroke-width:0.30247793"
+         id="tspan1123">Number of comparisons in worst case scenario (5 letters word among 1000 keys)</tspan>
     </text>
     <g
-       class="highcharts-data-labels highcharts-series-0"
-       transform="matrix(0.24956797,0,0,0.24956797,58.074431,69.019443)"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;opacity:1"
        id="g1145"
-       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;opacity:1">
+       transform="matrix(0.24956797,0,0,0.24956797,58.074431,67.431942)"
+       class="highcharts-data-labels highcharts-series-0">
       <g
-         transform="translate(68,25)"
-         id="g1131">
+         id="g1131"
+         transform="translate(68,25)">
         <text
-           x="5"
-           style="color:#000000;font-weight:bold;font-size:12px;font-family:arial, sans-serif;fill:#000000"
+           id="text1129"
            y="17"
-           id="text1129">
+           style="color:#000000;font-weight:bold;font-size:12px;font-family:arial, sans-serif;fill:#000000"
+           x="5">
           <tspan
              id="tspan1127">5000</tspan>
         </text>
       </g>
       <g
-         transform="translate(239,218)"
-         id="g1137">
+         id="g1137"
+         transform="translate(239,218)">
         <text
-           x="5"
-           style="color:#000000;font-weight:bold;font-size:12px;font-family:arial, sans-serif;fill:#000000"
+           id="text1135"
            y="17"
-           id="text1135">
+           style="color:#000000;font-weight:bold;font-size:12px;font-family:arial, sans-serif;fill:#000000"
+           x="5">
           <tspan
              id="tspan1133">1005</tspan>
         </text>
       </g>
       <g
-         transform="translate(416,265)"
-         id="g1143">
+         id="g1143"
+         transform="translate(416,265)">
         <text
-           x="5"
-           style="color:#000000;font-weight:bold;font-size:12px;font-family:arial, sans-serif;fill:#000000"
+           id="text1141"
            y="17"
-           id="text1141">
+           style="color:#000000;font-weight:bold;font-size:12px;font-family:arial, sans-serif;fill:#000000"
+           x="5">
           <tspan
              id="tspan1139">39</tspan>
         </text>
       </g>
     </g>
     <g
-       class="highcharts-data-labels highcharts-series-1"
-       transform="matrix(0.26458333,0,0,0.26458333,61.859132,57.031713)"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;opacity:1"
        id="g1147"
-       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;opacity:1" />
+       transform="matrix(0.26458333,0,0,0.26458333,61.859132,57.031713)"
+       class="highcharts-data-labels highcharts-series-1" />
     <g
-       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif"
-       class="highcharts-axis-labels highcharts-xaxis-labels"
+       transform="matrix(0.24956797,0,0,0.24956797,39.356834,57.948359)"
        id="g1175"
-       transform="matrix(0.24956797,0,0,0.24956797,39.356834,59.53586)">
+       class="highcharts-axis-labels highcharts-xaxis-labels"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif">
       <text
-         x="160.83333"
-         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:middle;opacity:1;fill:#000000"
+         id="text1165"
          y="348"
-         id="text1165">
+         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:middle;opacity:1;fill:#000000"
+         x="160.83333">
         <tspan
            id="tspan1163">oneOf + Backtrackable + token</tspan>
       </text>
       <text
-         x="332.5"
-         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:middle;opacity:1;fill:#000000"
+         id="text1169"
          y="348"
-         id="text1169">
+         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:middle;opacity:1;fill:#000000"
+         x="332.5">
         <tspan
            id="tspan1167">Trie + Sequential search</tspan>
       </text>
       <text
-         x="504.16666"
-         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:middle;opacity:1;fill:#000000"
+         id="text1173"
          y="348"
-         id="text1173">
+         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:middle;opacity:1;fill:#000000"
+         x="504.16666">
         <tspan
            id="tspan1171">Trie + Binary search</tspan>
       </text>
     </g>
     <g
-       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif"
-       class="highcharts-axis-labels highcharts-yaxis-labels"
+       transform="matrix(0.24956797,0,0,0.24956797,39.356834,57.948359)"
        id="g1205"
-       transform="matrix(0.24956797,0,0,0.24956797,39.356834,59.53586)">
+       class="highcharts-axis-labels highcharts-yaxis-labels"
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif">
       <text
-         x="60"
-         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:end;opacity:1;fill:#000000"
+         id="text1179"
          y="333"
-         id="text1179">
+         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:end;opacity:1;fill:#000000"
+         x="60">
         <tspan
            id="tspan1177">0</tspan>
       </text>
       <text
-         x="60"
-         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:end;opacity:1;fill:#000000"
+         id="text1183"
          y="285"
-         id="text1183">
+         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:end;opacity:1;fill:#000000"
+         x="60">
         <tspan
            id="tspan1181">1000</tspan>
       </text>
       <text
-         x="60"
-         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:end;opacity:1;fill:#000000"
+         id="text1187"
          y="237"
-         id="text1187">
+         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:end;opacity:1;fill:#000000"
+         x="60">
         <tspan
            id="tspan1185">2000</tspan>
       </text>
       <text
-         x="60"
-         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:end;opacity:1;fill:#000000"
+         id="text1191"
          y="188"
-         id="text1191">
+         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:end;opacity:1;fill:#000000"
+         x="60">
         <tspan
            id="tspan1189">3000</tspan>
       </text>
       <text
-         x="60"
-         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:end;opacity:1;fill:#000000"
+         id="text1195"
          y="140"
-         id="text1195">
+         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:end;opacity:1;fill:#000000"
+         x="60">
         <tspan
            id="tspan1193">4000</tspan>
       </text>
       <text
-         x="60"
-         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:end;opacity:1;fill:#000000"
+         id="text1199"
          y="92"
-         id="text1199">
+         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:end;opacity:1;fill:#000000"
+         x="60">
         <tspan
            id="tspan1197">5000</tspan>
       </text>
       <text
-         x="60"
-         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:end;opacity:1;fill:#000000"
+         id="text1203"
          y="43"
-         id="text1203">
+         style="color:#000000;font-weight:normal;font-size:12px;font-family:arial, sans-serif;text-transform:none;text-anchor:end;opacity:1;fill:#000000"
+         x="60">
         <tspan
            id="tspan1201">6000</tspan>
       </text>
     </g>
     <g
-       class="highcharts-tooltip"
-       display="none"
-       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;white-space:nowrap;display:none"
+       transform="matrix(0.26458333,0,0,0.26458333,42.015382,46.977546)"
        id="g1217"
-       transform="matrix(0.26458333,0,0,0.26458333,42.015382,46.977546)">
+       style="font-size:medium;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;white-space:nowrap;display:none"
+       display="none"
+       class="highcharts-tooltip">
       <path
-         d="m 3.5,0.5 h 10 c 3,0 3,0 3,3 v 10 c 0,3 0,3 -3,3 h -10 c -3,0 -3,0 -3,-3 v -10 c 0,-3 0,-3 3,-3"
-         transform="translate(1,1)"
+         style="fill:none;stroke:#000000;stroke-width:5;stroke-opacity:0.05"
          id="path1207"
-         inkscape:connector-curvature="0"
-         style="fill:none;stroke:#000000;stroke-width:5;stroke-opacity:0.05" />
-      <path
-         d="m 3.5,0.5 h 10 c 3,0 3,0 3,3 v 10 c 0,3 0,3 -3,3 h -10 c -3,0 -3,0 -3,-3 v -10 c 0,-3 0,-3 3,-3"
          transform="translate(1,1)"
+         d="m 3.5,0.5 h 10 c 3,0 3,0 3,3 v 10 c 0,3 0,3 -3,3 h -10 c -3,0 -3,0 -3,-3 v -10 c 0,-3 0,-3 3,-3" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:3;stroke-opacity:0.1"
          id="path1209"
-         inkscape:connector-curvature="0"
-         style="fill:none;stroke:#000000;stroke-width:3;stroke-opacity:0.1" />
-      <path
-         d="m 3.5,0.5 h 10 c 3,0 3,0 3,3 v 10 c 0,3 0,3 -3,3 h -10 c -3,0 -3,0 -3,-3 v -10 c 0,-3 0,-3 3,-3"
          transform="translate(1,1)"
-         id="path1211"
-         inkscape:connector-curvature="0"
-         style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:0.15" />
+         d="m 3.5,0.5 h 10 c 3,0 3,0 3,3 v 10 c 0,3 0,3 -3,3 h -10 c -3,0 -3,0 -3,-3 v -10 c 0,-3 0,-3 3,-3" />
       <path
-         d="m 3.5,0.5 h 10 c 3,0 3,0 3,3 v 10 c 0,3 0,3 -3,3 h -10 c -3,0 -3,0 -3,-3 v -10 c 0,-3 0,-3 3,-3"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:0.15"
+         id="path1211"
+         transform="translate(1,1)"
+         d="m 3.5,0.5 h 10 c 3,0 3,0 3,3 v 10 c 0,3 0,3 -3,3 h -10 c -3,0 -3,0 -3,-3 v -10 c 0,-3 0,-3 3,-3" />
+      <path
+         style="fill:#ffffff;fill-opacity:0.85"
          id="path1213"
-         inkscape:connector-curvature="0"
-         style="fill:#ffffff;fill-opacity:0.85" />
+         d="m 3.5,0.5 h 10 c 3,0 3,0 3,3 v 10 c 0,3 0,3 -3,3 h -10 c -3,0 -3,0 -3,-3 v -10 c 0,-3 0,-3 3,-3" />
       <text
-         x="8"
-         style="color:#000000;font-size:12px;fill:#000000"
+         id="text1215"
          y="20"
-         id="text1215" />
+         style="color:#000000;font-size:12px;fill:#000000"
+         x="8" />
     </g>
     <text
-       x="186.60191"
+       id="text1219"
+       y="150.03896"
        style="color:#909090;font-size:2.24611187px;font-family:'lucida grande', 'lucida sans unicode', arial, helvetica, sans-serif;text-anchor:end;fill:#909090;stroke-width:0.24956797"
-       y="151.62643"
-       id="text1219">meta-chart.com</text>
+       x="186.60191">meta-chart.com</text>
   </g>
 </svg>
