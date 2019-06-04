@@ -65,6 +65,8 @@ Once we get past *j* and *o* we can match either *e* or *h*. We could try them i
 
 Great care has been taken to make sure that it doesn't matter how long your dictionary keys are, or how many of them you have, the parser will never overflow the stack.
 
+You can read about the techniques used for that at [Recursion Patterns - Getting rid of stack overflows](https://lazamar.github.io/recursion-patterns/)
+
 ## How fast is it?
 
 ![dict-parser-comparison](https://cdn.jsdelivr.net/gh/lazamar/dict-parser@master/images/comparisons-chart.svg)
